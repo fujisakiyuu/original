@@ -1,24 +1,47 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+アプリケーション名：ゲームレビュー
 
-Things you may want to cover:
+アプリケーション概要
 
-* Ruby version
+ユーザーがゲームのレビュー記事を投稿できて
+その投稿に対してコメントやジャンル検索ボタンから
+記事を検索できます
 
-* System dependencies
+URL https://original-33487.herokuapp.com/
 
-* Configuration
+テスト用アカウント
+メールアドレス：test@example
+パスワード：taro0202
+名前：taro
 
-* Database creation
+利用方法
 
-* Database initialization
+新規登録ボタンからユーザーの登録を行います。
+登録したログインユーザーはレビュー投稿ボタンから
+『タイトル』『ジャンル』『総評』『画像』を入力して
+ゲームのレビューを投稿します。
+投稿されたレビューはジャンルボタンに表示されるジャンル一覧
+を選ぶと選んだジャンルの記事だけがブラウザ上に表示されます。
 
-* How to run the test suite
+目指した課題解決
 
-* Services (job queues, cache servers, search engines, etc.)
+自分が面白いゲームを探す時に、一人の人がおすすめのゲームを何本も紹介してる
+サイトを見て参考にしているんですが、たくさんの人がおすすめのゲームを紹介したり
+それに対してコメントできるサイトがあれば、よりたくさんの情報を得られると思いました。
 
-* Deployment instructions
+実装した機能
 
-* ...
+ジャンルの検索機能を実装しました
+https://i.gyazo.com/6cdec8f6115484887ec5ee5663c06810.gif
+
+実装予定の機能
+
+ジャンルだけではなくゲーム機の種類や開発した会社の検索機能を導入しようと思っています
+画像だけでなく動画も載せられる機能があるとよりわかりやすくなるので実装予定です
+
+ER図
+https://i.gyazo.com/5d4da3dde2a2b59fa719efc6bb515d72.png
+
+開発環境
+Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code
