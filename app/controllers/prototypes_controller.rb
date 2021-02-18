@@ -81,5 +81,4 @@ end
 def set_product_column
   @product_name = Prototype.select("catch_copy").distinct  # 重複なくnameカラムのデータを取り出す
 end
-
 end
